@@ -40,7 +40,7 @@ namespace PlayGame
 
             Refresh();
             Thread.Sleep(1000);
-            this.BackColor = Color.LimeGreen;
+            this.BackColor = Color.Green;
             OutputText.Text = "Go!";
             goPlayer.Play();
         }
